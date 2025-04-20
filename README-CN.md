@@ -121,7 +121,7 @@ async function main() {
     // 建立服务器连接
     await server.connect(transport);
     
-    console.log("Monad 测试网 MCP 服务器已启动");
+    console.error("Monad 测试网 MCP 服务器已启动");
 }
 ```
 
